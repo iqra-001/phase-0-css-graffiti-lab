@@ -1,1 +1,53 @@
-/* write your override styles here */
+/* Override styles for cleanup */
+
+/* Hiding unnecessary elements */
+#wall .tag-1,
+#tag-2,
+#tag-3,
+.slick-wicked {
+  display: none;
+}
+
+/* More overrides for additional tags */
+.parent #tag-4,
+#tag-5,
+.slick,
+#tag-6,
+#tag-7,
+.slick {
+  display: none;
+}
+
+/* Additional overrides for improving layout */
+#main-content {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Ensuring all text is visible */
+.text-content {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Adjusting the visibility of images */
+img.hidden {
+  visibility: hidden;
+}
+
+/* Adding hover effect to buttons */
+button:hover {
+  background-color: #f0f0f0;
+}
+
+/* Fixing the footer alignment */
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #fafafa;
+}
+
+/* Add more comments to explain the changes */
+/* These are custom styles for overriding defaults and cleaning up the layout */
